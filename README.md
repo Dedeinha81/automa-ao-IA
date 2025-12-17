@@ -33,15 +33,15 @@ Este projeto foi criado com foco em **automação**, **tratamento de dados reais
 phone_extractor_project/
 │
 
-├── main.py                 # Script principal
+├── main.py                 -Script principal
 
-├── sites.txt               # Lista de sites para análise
+├── sites.txt               -Lista de sites para análise
 
-├── requirements.txt        # Dependências do projeto
+├── requirements.txt        -Dependências do projeto
 
-├── resultado_telefones.csv # Arquivo gerado com os resultados
+├── resultado_telefones.csv -Arquivo gerado com os resultados
 
-└── README.md               # Documentação
+└── README.md               -Documentação
 
 
 ---
@@ -56,15 +56,15 @@ git clone https://github.com/seu-usuario
 ### 2️⃣ Instalar as dependências
 
 pip install -r requirements.txt
-```
+
 
 ### 3️⃣ Configurar a API Key
 
 No arquivo `main.py`, informe sua chave da OpenAI:
 
-```python
+python
 API_KEY = "SUA_CHAVE_AQUI"
-```
+
 
 > ⚠️ **Observação:** a API da OpenAI pode exigir créditos ativos para execução completa.
 
